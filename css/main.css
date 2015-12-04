@@ -1,0 +1,17 @@
+p {
+	color: red;
+}
+body {
+	font-size: 2em;
+	background-color: #2D3A9A;
+}
+h1 {
+	text-align: center;
+	border: 5px;
+	background-color: red;
+	border-style: dashed;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 50px;
+	padding-top:50px;
+}
