@@ -1,8 +1,7 @@
 p {
-	color: red;
+	color: black;
 }
 body {
-	font-size: 2em;
 	background-color: #2D3A9A;
 }
 h1 {
@@ -14,4 +13,15 @@ h1 {
 	margin-right: 100px;
 	padding-bottom: 50px;
 	padding-top:50px;
+}
+
+#mainContent{
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.centerMe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
