@@ -2,22 +2,37 @@ p {
 	color: black;
 }
 body {
-	background-color: #2D3A9A;
+	background-color: aqua;
+	font-family: "comic sans", "century gothic", verdana;
+	font-weight: normal;
+	font-style: normal;
 }
 h1 {
 	text-align: center;
+	text-decoration: underline;
 	border: 5px;
-	background-color: red;
+	background-color: yellow;
 	border-style: dashed;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
 	padding-bottom: 50px;
 	padding-top:50px;
+}
+
+h2{
+	text-decoration:none;
+	font-style: italic;
+	color: navy;
+}
+
+h3{
+	text-decoration: underline;
 }
 
 #mainContent{
 	margin-left: 75px;
 	margin-right: 75px;
+	text-transform: none;
 }
 
 .centerMe{
