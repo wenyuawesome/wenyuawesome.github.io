@@ -3,7 +3,7 @@ p {
 }
 body {
 	background-color: aqua;
-	font-family: "comic sans", "century gothic", verdana;
+	font-family: "century gothic", verdana;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19,6 +19,36 @@ h1 {
 	padding-top:50px;
 }
 
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width: 150px;
+	background-color: yellow;
+	position: fixed;
+	border: dashed;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+nav ul li a:hover{
+	background-color: black;
+	color: yellow;
+}
+
+.active{
+	background-color: aqua;
+	color: black;
+}
+
 h2{
 	text-decoration:none;
 	font-style: italic;
@@ -29,8 +59,13 @@ h3{
 	text-decoration: underline;
 }
 
+ul{
+	list-style-type: none;
+}
+
 #mainContent{
-	margin-left: 75px;
+	margin-left: 150px;
+	padding-left: 10px;
 	margin-right: 75px;
 	text-transform: none;
 }
