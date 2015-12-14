@@ -1,22 +1,23 @@
 p {
-	color: black;
+	color: #44328E;
 }
 body {
-	background-color: aqua;
+	background-color: #FFFF80;
 	font-family: "century gothic", verdana;
 	font-weight: normal;
 	font-style: normal;
 }
 h1 {
+	font-size: 2em;
 	text-align: center;
 	text-decoration: underline;
 	border: 5px;
-	background-color: yellow;
+	background-color: #E79BC6;
 	border-style: dashed;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-bottom: 5%;
-	padding-top:5%;
+	padding-bottom: 3%;
+	padding-top:3%;
 }
 
 
@@ -25,7 +26,7 @@ nav ul{
 	margin:0;
 	padding:0;
 	width: 150px;
-	background-color: yellow;
+	background-color: #E79BC6;
 	position: fixed;
 	border: dashed;
 }
@@ -41,18 +42,18 @@ nav ul li a {
 
 nav ul li a:hover{
 	background-color: black;
-	color: yellow;
+	color: #FFFF80;
 }
 
 .active{
-	background-color: aqua;
+	background-color: #7D69BD;
 	color: black;
 }
 
 h2{
 	text-decoration:none;
 	font-style: italic;
-	color: navy;
+	color: #7D69BD;
 }
 
 h3{
@@ -62,6 +63,8 @@ h3{
 ul{
 	list-style-type: none;
 }
+
+
 
 #mainContent{
 	margin-left: 150px;
@@ -74,6 +77,11 @@ ul{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+img{
+	height: 250px;
+	width: 200px;
 }
 
 @media screen and (max-width: 800px){
