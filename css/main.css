@@ -16,8 +16,8 @@ h1 {
 	border-style: dashed;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-bottom: 3%;
-	padding-top:3%;
+	padding-bottom: 5%;
+	padding-top:4%;
 }
 
 
@@ -80,16 +80,40 @@ ul{
 }
 
 img{
-	height: 250px;
-	width: 200px;
+	min-width: 20%;
+	max-width: 55%;
+	height: auto;
 }
 
 @media screen and (max-width: 800px){
-	nav{
-		display:none;
+	nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: auto;
+	background-color: #E79BC6;
+	position: fixed;
+	border: dashed;
 	}
+
+	nav ul li{
+		float:left;
+	}
+	
+	nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right:15px;
+	padding-left: 15px;
+	}
+	
 	#mainContent{
 		margin-left: 5%;
 		margin-right: 5%;
+		padding-top: 7%;
 	}
 }
